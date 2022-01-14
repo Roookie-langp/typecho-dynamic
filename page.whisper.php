@@ -9,6 +9,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- 自己添加 -->
+	<?php $this->need('public/include.php'); ?>
     <meta charset="utf-8">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp">
@@ -18,15 +20,15 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
           content="width=device-width, initial-scale=1.0, maximum-scale=6.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
     <!-- favicon图标 -->
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.3.5/assets/img/favicon.ico">
+    <link rel="shortcut icon" href="https://www.wlplove.com/favicon.ico">
     <!-- Typecho自有函数 -->
-    <meta name="description" content="超级时光鸡">
+    <meta name="description" content="碎碎念">
     <meta name="generator" content="Typecho 1.2/18.1.29">
     <!-- 通过自有函数输出HTML头部信息 -->
     <?php $this->header(); ?>
 
     <!-- 网站标题 -->
-    <title>超级时光鸡</title>
+    <title>碎碎念</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap-grid.min.css"
           media="all">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css" media="all">
@@ -42,6 +44,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 </head>
 <body>
 <section>
+    <!-- 页面头部 -->
+	<?php $this->need('public/header.php'); ?>
     <!-- 主体 -->
     <section class="container j-post">
         <section class="j-adaption">
@@ -49,6 +53,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
         </section>
 
     </section>
+    <!-- 页面页脚 -->
+    <?php $this->need('public/footer.php'); ?>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typecho_joe_theme@4.4.5/assets/js/OwO.min.js"></script>
