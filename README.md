@@ -15,8 +15,6 @@
 
 ### 怎么用
 
-简单写写，更详细的内容
-
 * 将 `times` 文件夹和 `page.whisper.php` 文件放到 Joe 主题目录下
 
 * Joe 主题目录下的 **function.php** 文件头添加一行代码：
@@ -32,4 +30,3 @@
   ![image-20220114111938156](img/02.png)
 
 这个页面也可以使用 API 来发送信息，从而在微信、QQ 或者南博 app 上写动态。相关教程及接口信息请参考原仓库：[gogobody/typecho-whisper: typecho 时光机单页 (github.com)](https://github.com/gogobody/typecho-whisper)
-
